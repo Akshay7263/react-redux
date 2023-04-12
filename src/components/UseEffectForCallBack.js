@@ -11,10 +11,10 @@ function UseEffectForCallBack() {
            
         },2000)
 
-        return () =>{
-       console.log(`clean up ${count}`)
-      clearInterval(clearValue)
-        }
+      //   return () =>{
+      //  console.log(`clean up ${count}`)
+      // clearInterval(clearValue)
+      //   }
     },[count])
    return (
      <div>

@@ -20,22 +20,28 @@ function App() {
        
      {/* <UseStateHook /> */}
 
-{/* 
-     {value? <UseEffectForCallBack />:<UseEffectHook /> }
+     {/* <UseEffectHook /> */}
+
+
+     {/* {value? <UseEffectForCallBack />:<UseEffectHook /> }
       <button onClick={()=>setValue(!value)} >set value</button> */}
 
-{/* 
+
 
      <VarContext.Provider value={"akshay"}>  
      <UseContextHook />
-     </VarContext.Provider> */}
+     <UseReducerHooks /> 
+     </VarContext.Provider> 
+
+
      
      {/* <UseRefHook /> */}
-     <UseReducerHooks />  
+
+     {/*   */}
     {/* <UseLayoutEffectHook /> */}
     {/* <UseMemoHooks /> */}
     {/* <UseCallBack /> */}
-    {/* <UseCustomHook /> */}
+    <UseCustomHook />
 
     </div>
   );

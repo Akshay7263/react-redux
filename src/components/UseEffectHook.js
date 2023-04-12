@@ -6,7 +6,7 @@
     const [count,setCount]=useState(0)
     useEffect(()=>{
         document.title = `${count} document`
-    })
+    },[count])
 
    return (
      <div>
